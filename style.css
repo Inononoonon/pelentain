@@ -1,0 +1,89 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+body {
+	background-color: #FFE6E6;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	padding: 50px;
+	cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTMiIGZpbGw9IiNGRjAwMDAiIHN0cm9rZT0iI0ZGN0I3QiIgc3Ryb2tlLXdpZHRoPSI0IiAvPgo8L3N2Zz4K'), auto;
+}
+
+h1 {
+	color: #FF0000;
+	font-size: 48px;
+	font-family: 'Parisienne', cursive;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 24px;
+	color: #800000;
+	line-height: 1.5;
+}
+
+img {
+	max-width: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #FF0000;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#countdown {
+	margin-top: 30px;
+	font-size: 18px;
+	color: #800000;
+}
+
+#timer {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+	background-color: #FFF;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 500px;
+	border-radius: 10px;
+	position: relative;
+}
+
+.close {
+	color: #888;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
